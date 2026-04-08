@@ -30,3 +30,28 @@ A complete implementation of a **secure web system** that demonstrates two funda
 - **Cryptography:** RSA, HMAC-SHA256
 
 ## 📂 Project Structure
+secure-cookies-digital-signature/
+├── app.py # Flask web app for HMAC cookies
+├── digital_signature.py # RSA signing & verification CLI
+├── gui_signer.py # Bonus attack GUI demo
+├── *.png # Screenshots of successful runs
+└── README.md
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/ibrahimmahmoudzaki/secure-cookies-digital-signature.git
+cd secure-cookies-digital-signature
+
+# Install dependencies
+pip install flask cryptography
+
+# Run HMAC cookie demo
+python app.py
+
+# Run digital signature demo
+python digital_signature.py
+
+# Run bonus attack GUI
+python gui_signer.py
